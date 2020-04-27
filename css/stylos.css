@@ -1,0 +1,371 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+header div {
+  text-align: center;
+}
+
+header div h1 {
+  margin: 0;
+}
+
+main .main-logo {
+  width: 600px;
+  height: 325px;
+  bottom: 0;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url("../images/logocentro.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 210px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+main .main-logo-left {
+  width: 300px;
+  justify-self: left;
+}
+
+main .main-logo-rigth {
+  width: 300px;
+  justify-self: right;
+}
+
+main .main-logo .main-logo-spanish {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 90px;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+main {
+  margin-bottom: 50px;
+}
+main small {
+  color: #54595d;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+main .main-logo strong {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #3366cc;
+}
+
+main .main-logo .main-logo-nihongo {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+main .main-logo .main-logo-rusia {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: -100px;
+}
+
+main .main-logo .main-logo-italia {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+main .main-logo .main-logo-portugal {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 90px;
+}
+
+main .main-logo .main-logo-english {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+main .main-logo .main-logo-deutsch {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 120px;
+}
+
+main .main-logo .main-logo-francia {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 160px;
+}
+
+main .main-logo .main-logo-chino {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 120px;
+}
+
+main .main-logo .main-logo-polaco {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+main .main-input {
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  display: flex;
+}
+
+main .main-input-container {
+  width: 480px;
+  height: 40px;
+  border: 1px solid gray;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0;
+}
+
+main .main-input-container input {
+  width: 400px;
+  border: none;
+  outline: none;
+}
+
+main .main-input .desplegar-icon {
+  background-image: url("../images/flecha-hacia-abajo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+}
+
+main .main-input .main-input-button {
+  width: 50px;
+  height: 41.6px;
+  background: #3366cc;
+}
+
+main .main-button a {
+  width: inherit;
+  height: inherit;
+  display: flex;
+}
+
+main .main-input .search-icon {
+  background-image: url("../images/buscar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: block;
+  width: inherit;
+  height: 30px;
+  margin-top: 5px;
+}
+
+main .main-button {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+main .main-button .main-button-linerigth {
+  display: grid;
+  align-self: center;
+  width: 150px;
+  margin-left: 10px;
+}
+
+main .main-button .main-button-lineleft {
+  display: grid;
+  align-self: center;
+  width: 150px;
+  margin-right: 10px;
+}
+
+main .main-button hr {
+  width: 150px;
+  color: #c8ccd1;
+}
+
+main .main-button .main-button-center {
+  display: flex;
+  border: 1px solid gray;
+  width: 260px;
+  height: 32px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  color: #3366cc;
+}
+main .main-button .chino-icon {
+  background-image: url("../images/chino.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+main .main-button .desplegar-icon {
+  background-image: url("../images/flecha-hacia-abajo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  margin-right: 10px;
+  color: #3366cc;
+}
+
+main .main-button a {
+  margin-top: 15px;
+}
+main .main-button a:hover {
+  text-decoration: none;
+}
+
+main .main-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+main .main-footer .product {
+  display: flex;
+  padding: 25px;
+}
+main .main-footer .product2 {
+  display: flex;
+  padding: 25px;
+  padding-right: 0;
+}
+
+main .main-footer .main-footer-description {
+  margin-left: 15px;
+  margin-top: 0;
+}
+
+main .main-footer .main-footer-description h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+main .main-footer .main-footer1 {
+  margin-left: 200px;
+  margin-top: 40px;
+  margin-right: 200px;
+}
+
+main .main-footer .main-footer-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+main .main-footer .main-footer-button button {
+  color: white;
+}
+main .main-footer .main-footer-button .button {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+  width: 124px;
+  height: 38px;
+}
+
+main .main-footer-button .button a {
+  width: inherit;
+  height: inherit;
+  color: white;
+  font-size: 25px;
+}
+
+main .main-footer .main-footer2 {
+  margin-top: 100px;
+}
+
+main .main-footer .main-footer2 .title-info {
+  margin-top: 0px;
+}
+
+main .main-footer .main-footer2 p {
+  margin-left: 0px;
+}
+
+main .main-footer .main-footer2 .info {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+main .main-footer .main-footer2 .info .cont-info {
+  margin-right: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-text a {
+  display: inline;
+}
+
+footer .footer-list {
+  display: flex;
+}
+
+footer .footer-list li {
+  margin-right: 20px;
+}
